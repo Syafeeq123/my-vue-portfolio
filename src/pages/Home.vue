@@ -10,7 +10,7 @@
           <span class="text-red-400 font-extrabold">Software Developer</span>
         </h2>
 
-        <div class="flex flex-row gap-2 mt-4">
+        <div class="flex flex-wrap md:flex-nowrap items-center gap-2 mt-4 justify-start md:justify-start">
           <button class="bg-orange-500 text-white px-3 py-2 rounded-md hover:bg-orange-600 transition">
             Got a project?
           </button>
@@ -21,7 +21,7 @@
         </div>
       </div>
       <!-- Right: Profile -->
-      <div class="flex-shrink-0 w-40 h-40 sm:w-48 sm:h-48 md:w-60 md:h-60">
+      <div class="flex-shrink-0 w-40 h-40 sm:w-30 sm:h-30 md:w-60 md:h-60">
         <div class="rounded-full overflow-hidden bg-white w-full h-full shadow-xl ring-2 ring-orange-400">
           <img :src="profile" alt="Profile" class="w-full h-full object-cover" />
         </div>
