@@ -10,18 +10,18 @@
           <span class="text-red-400 font-extrabold">Software Developer</span>
         </h2>
 
-        <div class="flex flex-wrap sm:flex-nowrap items-center gap-2 mt-4">
-          <button class="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition">
+        <div class="flex flex-row gap-2 mt-4">
+          <button class="bg-orange-500 text-white px-3 py-2 rounded-md hover:bg-orange-600 transition">
             Got a project?
           </button>
-          <button class="border border-white px-4 py-2 rounded-md hover:bg-white hover:text-black transition">
+          <button class="border border-white px-3 py-2 rounded-md hover:bg-white hover:text-black transition">
             My resume
           </button>
         
         </div>
       </div>
       <!-- Right: Profile -->
-      <div class="flex-shrink-0 w-60 h-60 sm:w-60 sm:h-60 md:w-60 md:h-60">
+      <div class="flex-shrink-0 w-40 h-40 sm:w-48 sm:h-48 md:w-60 md:h-60">
         <div class="rounded-full overflow-hidden bg-white w-full h-full shadow-xl ring-2 ring-orange-400">
           <img :src="profile" alt="Profile" class="w-full h-full object-cover" />
         </div>
