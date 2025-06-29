@@ -16,7 +16,7 @@
   <!--  Right: Navigation -->
   <ul class="hidden md:flex text-sm flex flex-row md:flex-row space-y-0 md:space-y-0 space-x-6 md:space-x-6 items-center">
     <li><router-link to="/home" class="hover:underline">Home</router-link></li>
-    <li><router-link to="/parallax" class="hover:underline">Parallax Page</router-link></li>
+    <li><router-link to="/parallax" class="hover:underline">Code</router-link></li>
     <li><a href="https://github.com/Syafeeq123" class="hover:underline">Github</a></li>
     <li><router-link to="/profile" class="hover:underline">Profile</router-link></li>
   </ul>
@@ -27,9 +27,9 @@
     <p class="relative z-10 mt text-white">This is my test portfolio</p>
     <ul class="flex flex-wrap justify-center gap-4 mt-4 text-sm text-white md:hidden">
   <li><router-link to="/home" class="hover:underline">Home</router-link></li>
-  <li><router-link to="/parallax" class="hover:underline">Parallax Page</router-link></li>
+  <li><router-link to="/parallax" class="hover:underline">Languages</router-link></li>
   <li><a href="https://github.com/Syafeeq123" class="hover:underline">Github</a></li>
-  <li><router-link to="/profile" class="hover:underline">Profile</router-link></li>
+  <li><router-link to="/profile" class="hover:underline">About me</router-link></li>
 </ul>
   </div>
   <!-- Mobile Navigation (shown only on small screens) -->
