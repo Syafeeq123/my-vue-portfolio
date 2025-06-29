@@ -29,14 +29,6 @@
     </div>
 
     <!-- Skills Row -->
-    <div class="relative z-10 flex justify-center mt-5 px-4">
-      <ul class="flex flex-wrap justify-center gap-6 text-xl sm:text-2xl text-white text-center">
-        <li><a href="https://github.com/Syafeeq123" class="hover:underline">Github</a></li>
-        <li><router-link to="" class="hover:underline">HTML</router-link></li>
-        <li><router-link to="" class="hover:underline">PHP</router-link></li>
-        <li><router-link to="" class="hover:underline">SQL</router-link></li>
-      </ul>
-    </div>
 </template>
 
 <script setup>

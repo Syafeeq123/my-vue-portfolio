@@ -10,12 +10,14 @@
        <Icon icon="vscode-icons:file-type-csharp" class="tech-icon" />
         <Icon icon="vscode-icons:file-type-cpp2" class="tech-icon" />
    </div>
+   <div class="text-center">
       <h1 class="text-4xl font-bold text-orange-400">ABOUT ME</h1>
       <p class="text-base sm:text-lg leading-relaxed px-2">
         Hello! I'm Syafeeq, a student. who is still learning and gaining knowledge about software development with a love for creating innovative solutions. 
         I specialize in web development, particularly with HTML, CSS, JavaScript, PHP and MySQL. 
         My goal is to build user-friendly applications that make a difference.
       </p>
+   </div>
     </div>
   </div>
 </template>
