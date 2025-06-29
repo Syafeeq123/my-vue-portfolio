@@ -1,7 +1,7 @@
 <template>
   <div class="p-10 min-h-screen bg-black relative z-10">
     <h1 class="text-2xl font-bold text-center text-orange-400 mb-10">Hover over the cards</h1>
-    <div class="flex flex-wrap justify-center gap-4">
+    <div class="flex overflow-x-auto space-x-4 px-4 sm:flex-wrap sm:justify-center sm:space-x-0 sm:gap-4">
       <ParallaxCard data-image="https://images.unsplash.com/photo-1599507593499-a3f7d7d97667?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
         <template #header><h1>PHP</h1></template>
         <template #content><p>web development.</p></template>
