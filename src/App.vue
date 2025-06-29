@@ -37,10 +37,7 @@
 </template>
 
 <script setup>
-import Menu from "./components/Menu.vue";
-import GooGooDolls from './assets/GGD_Iris.jpg';
 import Profile from './assets/image.png';
-import Hero from './components/Hero.vue';
 </script>
 
 <style scoped>
