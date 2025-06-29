@@ -1,28 +1,28 @@
 
  <template>
     <!-- 🧊 Hero Content -->
-    <div class="relative z-10 w-full min-h-screen flex flex-row items-center justify-center px-4 gap-12 overflow-x-hidden">
+    <div class="relative z-10 w-full min-h-screen flex flex-row items-center justify-center px-4 gap-12 overflow-hidden">
       <!-- Left: Text -->
-      <div class="flex-1 min-w-0 max-w-[300px] sm:max-w-xl space-y-4">
-        <h2 class="text-4xl md:text-5xl font-bold leading-tight">
+      <div class="flex-1 min-w-0 space-y-4 max-w-full">
+        <h2 class="text-2xl sm:text-3xl md:text-5xl font-bold leading-tight">
           <span class="text-white">Hello<span class="text-red-500">.</span></span><br />
           <span class="text-orange-400">I'm Syafeeq</span><br />
           <span class="text-red-400 font-extrabold">Software Developer</span>
         </h2>
 
-        <div class="flex flex-wrap md:flex-nowrap items-center gap-2 mt-4 justify-start md:justify-start">
-          <button class="bg-orange-500 text-white px-6 py-2 rounded-md hover:bg-orange-600 transition">
+        <div class="flex flex-wrap sm:flex-nowrap items-center gap-2 mt-4">
+          <button class="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition">
             Got a project?
           </button>
-          <button class="border border-white px-6 py-2 rounded-md hover:bg-white hover:text-black transition">
+          <button class="border border-white px-4 py-2 rounded-md hover:bg-white hover:text-black transition">
             My resume
           </button>
         
         </div>
       </div>
       <!-- Right: Profile -->
-      <div class="relative flex justify-center">
-        <div class="relative z-10 rounded-full overflow-hidden bg-white w-60 h-60 md:w-60 md:h-60 shadow-xl ring-2 ring-orange-400">
+      <div class="flex-shrink-0 w-36 h-36 sm:w-48 sm:h-48 md:w-60 md:h-60">
+        <div class="rounded-full overflow-hidden bg-white w-full h-full shadow-xl ring-2 ring-orange-400">
           <img :src="profile" alt="Profile" class="w-full h-full object-cover" />
         </div>
       </div>
