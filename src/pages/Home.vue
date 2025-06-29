@@ -1,9 +1,9 @@
 
  <template>
     <!-- 🧊 Hero Content -->
-    <div class="relative z-10 w-full min-h-screen flex flex-row md:flex-row items-center justify-center px-4 gap-12 overflow-x-hidden">
+    <div class="relative z-10 w-full min-h-screen flex flex-row md:flex-row items-center justify-center px-4 gap-12 text-center md:text-left overflow-x-hidden">
       <!-- Left: Text -->
-      <div class="max-w-xl space-y-6 text-left md:text-left">
+      <div class="w-full space-y-6 text-left md:text-left">
         <h2 class="text-4xl md:text-5xl font-bold leading-tight">
           <span class="text-white">Hello<span class="text-red-500">.</span></span><br />
           <span class="text-orange-400">I'm Syafeeq</span><br />
