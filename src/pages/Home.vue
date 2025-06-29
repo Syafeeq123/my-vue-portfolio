@@ -4,7 +4,7 @@
     <div class="relative z-10 w-full min-h-screen flex flex-row items-center justify-center px-4 gap-12 overflow-hidden">
       <!-- Left: Text -->
       <div class="flex-1 min-w-0 space-y-4 max-w-full">
-        <h2 class="text-2xl sm:text-3xl md:text-5xl font-bold leading-tight">
+        <h2 class="text-3xl sm:text-3xl md:text-5xl font-bold leading-tight">
           <span class="text-white">Hello<span class="text-red-500">.</span></span><br />
           <span class="text-orange-400">I'm Syafeeq</span><br />
           <span class="text-red-400 font-extrabold">Software Developer</span>
@@ -21,7 +21,7 @@
         </div>
       </div>
       <!-- Right: Profile -->
-      <div class="flex-shrink-0 w-36 h-36 sm:w-48 sm:h-48 md:w-60 md:h-60">
+      <div class="flex-shrink-0 w-60 h-60 sm:w-60 sm:h-60 md:w-60 md:h-60">
         <div class="rounded-full overflow-hidden bg-white w-full h-full shadow-xl ring-2 ring-orange-400">
           <img :src="profile" alt="Profile" class="w-full h-full object-cover" />
         </div>
