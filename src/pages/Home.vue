@@ -2,6 +2,7 @@
  <template>
     <!-- 🧊 Hero Content -->
     <div class="relative z-10 w-full min-h-screen flex flex-row items-center justify-center px-4 gap-12 overflow-hidden">
+      <div class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#FFA500_100%)]"></div>
       <!-- Left: Text -->
       <div class="flex-1 min-w-0 space-y-4 max-w-full">
         <h2 class="text-3xl sm:text-3xl md:text-5xl font-bold leading-tight">
@@ -14,7 +15,7 @@
           <button class="bg-orange-500 text-white px-3 py-2 rounded-md hover:bg-orange-600 transition">
             Got a project?
           </button>
-          <button class="border border-white px-3 py-2 rounded-md hover:bg-white hover:text-black transition">
+          <button class="bg-red-400 text-white px-3 py-2 rounded-md hover:bg-white hover:text-black transition">
             My resume
           </button>
         
@@ -22,7 +23,7 @@
       </div>
       <!-- Right: Profile -->
       <div class="flex-shrink-0 w-40 h-40 sm:w-30 sm:h-30 md:w-60 md:h-60">
-        <div class="rounded-full overflow-hidden bg-white w-full h-full shadow-xl ring-2 ring-orange-400">
+        <div class="rounded-full overflow-hidden  [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#FFA500_100%)] w-full h-full shadow-2xl ring-4 ring-black">
           <img :src="profile" alt="Profile" class="w-full h-full object-cover" />
         </div>
       </div>
